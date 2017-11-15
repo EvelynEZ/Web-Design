@@ -1,0 +1,3 @@
+The Six Degrees of Kevin Bacon is a game based upon the theory that every actor can be connected to actor Kevin Bacon by a chain of movies no more than 6 in length. Most, but not all, can reach him in 6 steps. 12% of all
+actors cannot reach him at all.
+This program contains HTML/CSS and PHP code for a web site called MyMDb that mimics part of the popular IMDb movie database site. It will show the movies in which another actor has appeared with Kevin Bacon. The site will also show a list of all movies in which the other actor has appeared.
