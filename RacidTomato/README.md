@@ -1,0 +1,1 @@
+The site show reviews for a variety of movies using the same PHP code.

@@ -1,0 +1,153 @@
+/* Jiaqi Zhang; Section: AJ; HW03: movie.css; 
+This is the style sheet for movie.php */
+body{
+	background-image: url('https://webster.cs.washington.edu/images/moviebg.png');
+	font-size: 10pt;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	margin-bottom: 60px;
+}
+
+#topbanner, #bottombanner{
+	text-align: center;
+	background-image: url("https://webster.cs.washington.edu/images/rancidbannerbg.png");
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+}
+
+#topbanner {
+	top: 0px;
+}
+
+#bottombanner{
+	bottom: 0px;
+}
+
+h1 {
+	margin-top: 71px; 
+	text-align: center;
+	text-shadow: 3px 3px #999999;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.overall{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px gray;
+	overflow: hidden;
+	background-color: #EEEEEE;
+
+}
+
+.overview{
+	float: right;
+	width: 250px;
+	font-size: 10pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.review{
+	margin-bottom: 10pt;
+	padding-top: 10pt;
+	overflow: hidden;
+}
+
+.viewer{
+	margin-bottom: 0px;
+}
+
+dl{
+	padding: 0pt 10pt 0pt 10pt;
+	margin-top: 0px; 
+}
+
+dt{
+	font-weight: bold;
+	padding-top:10pt;
+}
+
+ul{
+	padding: 0;
+	list-style-type: none;
+}
+
+.leftsection{
+	width: 550px;
+}
+
+.rottenbanner{
+	background-image: url('https://webster.cs.washington.edu/images/rottenlargebg.png');
+	background-repeat:repeat-x;
+	height: 83px;
+	font-size: 48pt;
+}
+
+.rottenbanner span{
+	color: red;
+	font-weight: bold; 
+	vertical-align: bottom;
+}
+
+
+.rottenbanner img{
+	vertical-align: bottom;
+}
+
+.quote{
+	font-size: 10pt;
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	border-radius: 20px;
+	padding: 8px;
+	margin-top: 0px;
+	overflow: hidden;
+}
+
+.review img{
+	float: left;
+	margin-right: 5px;
+}
+
+
+.viewer span{
+	font-style: italic;
+}
+
+.column{
+	float: left;
+	width: 47%;
+	padding-left: 2%;
+}
+
+#page{
+	clear: both;
+	padding: 5px;
+	margin: 0px;
+	text-align: center;
+}
+
+#page, .overview{
+	background-color: #A2B964;
+}
+
+#validator{
+	float: right;
+	right: 0px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
