@@ -1,0 +1,10 @@
+window.onload = function() {
+	document.getElementById("start").onclick = startPlay;
+};
+
+function startPlay() {
+	document.getElementById("end").disabled = true;
+	var anime = document.getElementById("animation").value.toUpperCase();
+	document.getElementById("mytextarea").value = ANIMATIONS[anime];
+
+}

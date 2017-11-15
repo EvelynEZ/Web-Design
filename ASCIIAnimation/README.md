@@ -1,0 +1,2 @@
+The page ascii.html has a user interface (UI) for creating/viewing ASCIImations. Stylesheet: ascii.css
+UI is made interactive by writing JavaScript code in ascii.js so that clicking the UI controls causes appropriate behavior.
