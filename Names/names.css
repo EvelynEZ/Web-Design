@@ -1,0 +1,25 @@
+/*
+Jiaqi Zhang; AJ; HW09
+Style Sheet for the names.html page.
+*/
+body{
+	font-size: 12pt;
+	font-family: Georgia, serif;
+}
+
+td div{
+	background-color: #FFBBBB;
+	width: 50px;
+	height: 0px;
+}
+
+td{
+	vertical-align: bottom;
+	height: 250px;
+	text-align: center;
+ 	font-weight: bold;
+}
+
+q{
+	font-style: italic;
+}
