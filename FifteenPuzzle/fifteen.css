@@ -1,0 +1,32 @@
+/*
+Jiaqi Zhang; AJ; HW08
+This is the css style sheet for my web page.
+*/
+body {
+	font-size: 14pt;
+	text-align: center;
+	font-family: cursive;
+}
+
+#puzzlearea {
+	margin: 0 auto;
+	height: 400px;
+	width: 400px;
+	position: relative;
+}
+
+.puzzles { 
+	width: 90px;
+	height: 90px;
+	border: 5px black solid;
+	font-size: 40pt;
+	background-image: url("background.jpg");
+	position: absolute;
+	cursor: default;
+}
+
+.movable:hover{ 
+	color: red;
+	border: 5px solid red;
+	cursor: pointer;
+}
